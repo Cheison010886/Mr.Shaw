@@ -1,0 +1,73 @@
+/*- FONTS--*/
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&display=swap');
+.home{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    justify-content: space-between;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 70px 10% 0;
+    color: #fff;
+
+}
+.container{
+    width: 100%;      
+} 
+.nav-link{
+    color: #FF7700!important;
+}
+.nav-link:hover{
+    color: rgb(255, 255, 255)!important;   
+    box-shadow: 0 0 5px whitesmoke,
+    0 0 25px whitesmoke, 0 0 50px whitesmoke,
+    0 0 100px whitesmoke, 0 0 200px whitesmoke;
+}
+body{
+    font-family: "Alfa slab one";
+    line-height: 1.7;   
+    background-color: #FF7700; 
+}
+.secion-padding{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+
+/*--Navbar--*/
+.navbar-nav .nav-link{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700; 
+     
+}
+@media (min-width:992px){
+    .navbar-expand-lg .navbar-nav .nav-link{
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
+.btn-box{
+    display: inline-block;
+    padding: 12px 28px;
+    font-size: 16px;
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 40px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+}
+.btn-box:hover{
+    color: rgb(0, 0, 0)!important;
+    box-shadow: 0 0 5px whitesmoke,
+    0 0 25px whitesmoke, 0 0 50px whitesmoke,
+    0 0 100px whitesmoke, 0 0 200px whitesmoke;
+}
+.home-content h1, h2, h3{
+    color: black;
+   
+}
+
